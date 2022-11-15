@@ -1,7 +1,7 @@
 <h1 align="center">Social Tree</h1>
 
 <p align="center">
-Página web criada como uma "Social Tree" para redirecionamento de links pessoais (redes sociais, projetos...)
+Página web criada como uma "Social Tree" para redirecionamento de links pessoais (redes sociais, projetos...). Feito a partir de desafio proposto pela plataforma de ensino "Rocketseat".
 </p>
 
 <p align="center">
