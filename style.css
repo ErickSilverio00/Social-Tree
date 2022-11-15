@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    max-width: 300px;
+    margin: 32px auto;
+}
+
+header .cabecalho {
+
+}
+
+header .circulo img{
+    margin-top: 60px;
+    background-image: url(./assets/foto-de-perfil.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    
+}
+
+header .foto-de-perfil {
+
+}
+
+header .insta {
+    font-family: 'Poppins', sans-serif;
+    color: #BB99DD;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+header .insta a {
+    text-decoration: none; 
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    color: #BB99DD;
+    max-width: 300px;
+    margin: 32px auto;
+}
+
+main .links {
+
+}
+
+main .links ul {
+    list-style: none;
+}
+
+main .links ul li {
+    border: 2px solid #BB99DD;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+main .links ul li a {
+    text-decoration: none;
+}
+
+
+footer {
+    max-width: 200px;
+    margin: 32px auto;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul li {
+
+}
+
+.circulo:hover,
+.circulo img:hover {
+    transform: scale(1.03);
+}
+
+.circulo,
+.circulo img {
+    transition: transform 0.4s;
+}
+
+.circulo {
+    animation: appear .7s;
+}
+
+header .insta:hover {
+    transform: scale(1.1);
+}
+
+header .insta {
+    transition: transform 0.4s;
+}
+
+header .insta {
+    animation: appear .7s;
+}
+
+.links ul li:hover {
+    transform: scale(1.1);
+}
+
+.links ul li {
+    transition: transform 0.4s;
+}
+
+.links ul li {
+    animation: appear .7s;
+}
+
+footer ul li:hover {
+    transform: scale(1.1);
+}
+
+footer ul li {
+    transition: transform 0.4s;
+}
+
+footer ul li {
+    animation: appear .7s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
